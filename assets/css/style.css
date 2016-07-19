@@ -11,6 +11,7 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
+@media screen and (max-width:1080px)
 
 	body
 	{
@@ -696,17 +697,18 @@
 
 	#banner
 	{
-		background: #111 url('../images/capa.jpeg');
+		background:#252122 url('../images/fotos/decoevictor_capa.jpg');
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
-		text-align: center;
+
 	}
 
 		#banner header
 		{
 			background-color: #252122;
 			background-color: rgba(255,255,255,0);
+			visibility: hidden;
 		}
 
 			#banner header h2
@@ -747,7 +749,7 @@
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url('images/bg01.png');
+			background: url('images/bg01.jpg');
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.1;
@@ -775,7 +777,7 @@
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url('images/bg01.png');
+			background: url('images/bg01.jpg');
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;
