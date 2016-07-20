@@ -217,7 +217,7 @@
 }
 
 .masonry {
-  
+
   box-sizing: border-box;
   flex-direction: row;
   flex-wrap: wrap;
@@ -250,4 +250,3 @@
 .masonry a:hover img {
   opacity: 1;
 }
-
