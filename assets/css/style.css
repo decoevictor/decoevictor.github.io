@@ -11,7 +11,6 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
-@media screen and (max-width:1080px)
 
 	body
 	{
@@ -121,7 +120,7 @@
 			form label
 			{
 				display: block;
-				color: #FFFFFF;
+				color: #252122;
 				font-weight: 400;
 				margin: 0 0 0.5em 0;
 			}
@@ -697,32 +696,34 @@
 
 	#banner
 	{
-		background:#fff url('../images/fotos/capa2.jpg');
+		background: #CCE8F4 url('../images/pic01.jpg');
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
-
+		text-align: center;
 	}
 
 		#banner header
 		{
 			background-color: #252122;
-			background-color: rgba(255,255,255,0);
+			background-color: rgba(34,30,31,0.98);
 			visibility: hidden;
 		}
 
 			#banner header h2
 			{
-				color: rgba(255,255,255,0);
+				color: #fff;
 				font-weight: 700;
+				visibility: hidden;
 			}
 
 			#banner header p
 			{
-				color: rgba(255,255,255,0);
+				color: #d52349;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
+				visibility: hidden;
 			}
 
 /*********************************************************************************/
@@ -739,7 +740,7 @@
 	#main-wrapper
 	{
 		position: relative;
-		background: #111 url('images/bg02.png');
+		background: #f7f7f7 url('images/bg02.png');
 	}
 
 		#main-wrapper:before
@@ -749,7 +750,7 @@
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url('images/bg01.jpg');
+			background: url('images/bg01.png');
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.1;
@@ -777,7 +778,7 @@
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url('images/bg01.jpg');
+			background: url('images/bg01.png');
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;
@@ -785,7 +786,7 @@
 
 		#footer-wrapper a
 		{
-			color: #c5c4c4;
+			color: #d52349;
 		}
 
 		#footer-wrapper h2,
@@ -796,7 +797,7 @@
 		#footer-wrapper strong,
 		#footer-wrapper b
 		{
-			color: #fff;
+			color: #111;
 		}
 
 		#footer-wrapper h1 a,
