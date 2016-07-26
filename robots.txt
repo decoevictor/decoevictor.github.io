@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /_includes
+Disallow: /_layouts
+Disallow: /_posts
+Disallow: /_site
+Disallow: /assets
