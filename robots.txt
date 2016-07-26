@@ -1,6 +1,8 @@
+# robots.txt gerado em
+# marketingdebusca.com.br/robots-txt/
 User-agent: *
+Disallow:
+Disallow: /assets
 Disallow: /_includes
-Disallow: /_layouts
 Disallow: /_posts
 Disallow: /_site
-Disallow: /assets
