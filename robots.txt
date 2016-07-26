@@ -3,6 +3,5 @@
 User-agent: *
 Disallow:
 Disallow: /assets
-Disallow: /_includes
 Disallow: /_posts
 Disallow: /_site
